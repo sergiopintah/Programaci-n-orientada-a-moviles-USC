@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hola Mundo</string>
+
+    <string name="text_view_tittle">Información estudiante</string>
+    <string name="text_view_tag_name">NOMBRE:</string>
+    <string name="text_view_tag_id">IDENTIFICACIÓN:</string>
+    <string name="text_view_tag_curso">CURSO:</string>
+    <string name="button_info">Ver Información</string>
+</resources>
