@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Proyecto003</string>
+    <string name="edit_text_numberOne">Ingrese el primer valor</string>
+    <string name="edit_text_numberTwo">Ingrese el segundo valor</string>
+
+    <string name="radio_button_sumar">Sumar</string>
+    <string name="radio_button_restar">Restar</string>
+    <string name="radio_button_multiplicar">Multiplciar</string>
+    <string name="radio_button_dividir">Dividir</string>
+
+    <string name="button">Operar</string>
+    <string name="tv1">RESULTADO</string>
+</resources>
