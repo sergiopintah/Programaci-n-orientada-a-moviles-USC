@@ -29,10 +29,29 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void operar(View view){
+
+        et1.setError(null);
+        et2.setError(null);
+
         String valor1=et1.getText().toString();
         String valor2=et2.getText().toString();
+
+        if("".equals(valor1))
+        {
+            et1.setError("Ingrese números");
+            et1.requestFocus();
+            return;
+        }else if("".equals(valor2))
+        {
+            et2.setError("Ingrese números");
+            et2.requestFocus();
+            return;
+        }
+
         double nro1=Double.parseDouble(valor1);
         double nro2=Double.parseDouble(valor2);
+
+
 
         if (R1.isChecked()==true) {
             double suma=nro1+ nro2;
